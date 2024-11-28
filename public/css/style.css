@@ -1,0 +1,42 @@
+.textarea-height {
+    height: 100px!important;
+}
+
+.nr_pages_width,
+.birthday_width{
+    width: 200px;
+}
+
+.list-book {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    justify-content: start;
+}
+
+.detail-book {
+    background-color: #fff;
+}
+
+.detail-book figure {
+    padding: 0;
+    margin: 0;
+}
+
+.detail-book figure img {
+    width: 100%;
+}
+
+#flash-message {
+    position: absolute;
+    background-color: green;
+    padding: 1.3vw;
+    text-align: center;
+    color: #fff;
+    top: 4px;
+    left: 4px;
+    z-index: 99;
+    width: calc(100% - 8px);
+}
+
+
